@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #141414;
+  color: #fff;
+}
+
+.heading {
+  padding-bottom: 50px;
+  font-size: 2rem;
+}
+
+.result {
+  background: #fff;
+  width: 600px;
+  padding: 80px 40px;
+  border-radius: 8px;
+  text-align: center;
+  color: #141414;
+}
